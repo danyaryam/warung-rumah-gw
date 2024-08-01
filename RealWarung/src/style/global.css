@@ -1,0 +1,233 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #f7f7f7;
+    --dark: #000000;
+    --primary-color: #ffffff;
+    --secondary-color: #f0f0f0;
+    --tertiary-color: #d9d9d9;
+    --quaternary-color: #bfbfbf;
+}
+
+.welcome {
+    background-image: url("/src/assets/images/bg_title.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--dark);
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    margin: 0;
+}
+
+.welcome-content-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content-footer {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 1200px;
+    height: 800px;
+    transition: opacity 1s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+
+.menu {
+    padding: 20px;
+
+}
+
+.menu-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-content-title {
+    text-align: center;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    background-color: var(--quaternary-color);
+}
+
+.food,
+.drink {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-food,
+.card-drink {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.card-food img,
+.card-drink img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-food p,
+.card-drink p {
+    padding: 13px;
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--tertiary-color);
+    color: var(--dark);
+}
+
+.card-drink:hover,
+.card-food:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    border: 2px solid var(--dark);
+}
+
+.kontak {
+    padding: 20px;
+}
+
+.kontak-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kontak-content-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    background-color: var(--quaternary-color);
+}
+
+.kontak-content-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.phone,
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 150px;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+}
+
+.phone i,
+.location i {
+    font-size: 24px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.phone h4 {
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.phone p {
+    margin-top: -6px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.location p {
+    margin-top: -25px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}

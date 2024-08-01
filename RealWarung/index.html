@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Warung Bu Sum</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section
+        class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] 
+        bg-cover bg-center bg-no-repeat">
+        <div class="overlay">
+        </div>
+
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+            <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
+                    Warteg Banyuwangi
+
+                    <strong class="block font-extrabold text-rose-500"> Warung Bu Sum </strong>
+                </h1>
+
+                <p class="mt-4 max-w-lg text-white sm:text-xl/relaxed">
+                    Warung yang menjual aneka lauk rumahan dan makanan khas banyuwangi yang berdiri sejak 2001!
+                </p>
+
+                <p class=" max-w-lg text-yellow-300 text-4xl ">
+                    ★★★★☆
+                </p>
+
+                <div class="mt-8 flex flex-wrap gap-4 text-center">
+                    <a href="https://g.co/kgs/hsmMdtn"
+                        class="inline-flex items-center justify-center gap-1.5 rounded 
+                        bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow transition-colors 
+                        duration-300 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-600 
+                        active:bg-rose-500 sm:w-auto w-full"
+                        type="button">
+                        <span class="text-sm font-medium"> View Location </span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </a>
+
+                    <a href="https://wa.me/6281234535868?text=Bu saya mau pesan nasi kotak..."
+                        class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 
+                        shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
+                        Pesan Nasi Kotak
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end navbar -->
+
+    <!-- produk -->
+    <div class="w-full my-8">
+        <h1 class="text-3xl text-center font-semibold">Aneka Lauk</h1>
+        <div class="container grid grid-cols-5 gap-4 max-w-4xl mx-auto py-5">
+            <a href="#" class="group block">
+                <img src="src/assets/images/ayamBakar.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Ayam Bakar
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 6.000 /potong</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/ayamGoreng.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Ayam Goreng
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 4.000 /potong</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/ayamSuwir.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Ayam Suwir
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 2.000 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/cumi.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Cumi-cumi
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 5.000 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/pakis.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Tumis pakis
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.000 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/perkedel.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Perkedel
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 1.500 /1</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/paru.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Paru
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 4.500 /2</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/urapurap.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Urap-urap
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 2.000 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/pelasan.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Pelayan tongkol
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 2.000 /potong</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/rendang.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Daging
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 5.500 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/kikil.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Kikil
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 5.500 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/telur.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Telur goreng
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 1.500 /potong</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/pecel.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Pecel
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 12.000 /piring</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/sop.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Sayur Sop
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.000 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/sayurAsem.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Sayur Asem
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.500 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/sayurKelor.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Sayur Kelor
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 2.500 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/sayurTewel.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Sayur Tewel
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.500 </p>
+                </div>
+            </a>
+        </div>
+        <h1 class="text-3xl text-center font-semibold">Aneka Minuman</h1>
+        <div class="container grid grid-cols-6 gap-4 max-w-4xl mx-auto py-5">
+            <a href="#" class="group block">
+                <img src="src/assets/images/esTeh.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Es Teh
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.000</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/esJeruk.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Es Jeruk
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 4.000 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/esTemulawak.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Es Temulawak
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.000 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/kopi.JPG" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Kopi
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 3.000</p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/kopiSusu.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Kopi Susu
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 4.000 </p>
+                </div>
+            </a>
+            <a href="#" class="group block">
+                <img src="src/assets/images/botolan.jpg" alt="" class="aspect-square w-full rounded object-cover" />
+
+                <div class="mt-3">
+                    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                        Minuman botolan
+                    </h3>
+
+                    <p class="mt-1 text-sm text-gray-700">Rp. 4.000 - 16.000 </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- end produk -->
+
+    <!-- info pesanan -->
+    <div class="mx-auto max-w-screen-xl pb-12 pt-5 justify-center">
+        <h1 class="text-3xl text-center font-semibold pb-5">List Pemesanan Nasi Kotak</h1>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center max-w-3xl mx-auto">
+            <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
+                <div class="p-6 sm:px-8">
+                    <h2 class="text-lg font-medium text-gray-900">
+                        Standart & custom
+                        <span class="sr-only">Plan</span>
+                    </h2>
+
+                    <p class="mt-2 text-gray-700">Menu standart yang umum dalam sebuah acara dengan kotak 20 x 20.</p>
+
+                    <p class="mt-2 sm:mt-4">
+                        <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> Rp. 15.000 </strong>
+
+                        <span class="text-sm font-medium text-gray-700">/kotak</span>
+                    </p>
+
+                    <a class="mt-4 block rounded border border-rose-500 bg-rose-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-rose-500 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                        href="https://wa.me/6281234535868?text=Bu saya mau pesan nasi kotak...">
+                        Pesan sekarang
+                    </a>
+                </div>
+
+                <div class="p-6 sm:px-8">
+                    <p class="text-lg font-medium text-gray-900 sm:text-xl">Contoh isi dalam kotak:</p>
+
+                    <ul class="mt-2 space-y-2 sm:mt-4">
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Ayam goreng </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Tumis pakis </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Perkedel </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Sambel </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Nasi </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-red-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+
+                            <span class="text-gray-700"> Minum </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divide-y divide-gray-200 rounded-2xl border border-rose-500 shadow-sm">
+                <div class="p-6 sm:px-8">
+                    <h2 class="text-lg font-medium text-gray-900">
+                        Spesial & custom
+                        <span class="sr-only">Plan</span>
+                    </h2>
+
+                    <p class="mt-2 text-gray-700">Menu spesial yang umum dalam sebuah acara dengan kotak 25 x 25.</p>
+
+                    <p class="mt-2 sm:mt-4">
+                        <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> Rp. 25.000 </strong>
+
+                        <span class="text-sm font-medium text-gray-700">/kotak</span>
+                    </p>
+
+                    <a class="mt-4 block rounded border border-rose-500 bg-rose-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-rose-500 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                        href="https://wa.me/6281234535868?text=Bu saya mau pesan nasi kotak...">
+                        Pesan sekarang
+                    </a>
+                </div>
+
+                <div class="p-6 sm:px-8">
+                    <p class="text-lg font-medium text-gray-900 sm:text-xl">Contoh isi dalam kotak:</p>
+
+                    <ul class="mt-2 space-y-2 sm:mt-4">
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Ayam bakar </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Cumi-cumi </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Paru-paru </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Kerupuk </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Nasi </span>
+                        </li>
+
+                        <li class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-indigo-700">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+
+                            <span class="text-gray-700"> Minum </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end info pesanan -->
+
+    <!-- footer -->
+    <footer class="bg-rose-200 lg:grid lg:grid-cols-5">
+        <div class="relative block h-32 lg:col-span-2 lg:h-full">
+            <img src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+                alt="" class="absolute inset-0 h-full w-full object-cover" />
+        </div>
+
+        <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <div>
+                    <p>
+                        <span class="text-xs uppercase tracking-wide text-gray-500"> Hubungi </span>
+
+                        <a href="https://wa.me/6281234535868?text=Bu saya mau pesan nasi kotak..." 
+                        class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+                            0812-3453-5868
+                        </a>
+                    </p>
+
+                    <ul class="mt-4 space-y-1 text-sm text-gray-700">
+                        <li>Senin - Sabtu: 06.00 - 16.00 WIB</li>
+                        <li>Minggu: 06.00 - 15.00 WIB</li>
+                    </ul>
+
+                    <p class="mt-4">
+                        <span class="uppercase tracking-wide text-xs text-gray-500">Alamat</span>
+
+                        <a href="https://g.co/kgs/hsmMdtn" class="block text-sm font-semibold text-gray-700">
+                            Jl. Jaksa Agung Suprapto no
+                            143 RT.01/RW.02 Lingkungan Mojoroto, Lingkungan Cuking Rw., Mojopanggung, Kec. Giri,
+                            Kabupaten Banyuwangi, Jawa Timur 68425
+                        </a>
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div>
+                        <p class="font-medium text-gray-900">Services</p>
+
+                        <ul class="mt-6 space-y-4 text-sm">
+                            <li>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Makan Di tempat </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Bungkusan </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Pesanan Nasi Kotak </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Pesanan Nasi Tumpeng </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 border-t border-gray-100 pt-12">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <ul class="flex flex-wrap gap-4 text-xs">
+                        <li>
+                            <a href="#" class="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                        </li>
+                    </ul>
+
+                    <p class="mt-8 text-xs text-gray-500 sm:mt-0">
+                        &copy; 2024. Warung Bu Sum. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>

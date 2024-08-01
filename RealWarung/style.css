@@ -1,0 +1,14 @@
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(31, 41, 55, 0.75);
+}
+
+@media (min-width: 640px) {
+
+    /* sm breakpoint */
+    .overlay {
+        background: linear-gradient(to right, #1f2937, transparent);
+        /* Equivalent to sm:from-gray-900 sm:to-transparent */
+    }
+}
